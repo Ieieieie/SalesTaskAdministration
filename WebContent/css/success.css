@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+	font-size:300%;
+}
+button{
+	width:80%;
+	height:10vh;
+	font-size:200%;
+}
+#Logout_button{
+	width:80%;
+	height:10vh;
+	font-size:200%;
+	margin:0 auto;
+	margin-top:10%;
+}

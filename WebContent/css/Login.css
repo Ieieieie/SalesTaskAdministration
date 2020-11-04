@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.login_container{
+	width:500px;
+	margin:0 auto;
+
+}
+@media screen and (max-width:1024px){
+
+	body{
+		background:white;
+		font-family:Meiryo;
+		background-color:#244898
+		height: 100vh;
+        background: url("../pictures/写真.jpg") 50% fixed;
+        background-size: cover;
+	}
+	.login_container{
+		width:90%;
+		height:44vh;
+		text-align:center;
+		margin-top:40%;
+		background-color:white;
+	}
+	.login-form{
+		width:80%;
+		height:7vh;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:7%
+
+	}
+	#loginText{
+		font-size:250%;
+		color:black;
+        background-color:white;
+        vertical-align:;
+        padding-top:5%;
+	}
+	#login_button{
+		width:100%;
+		height:14vh;
+		font-size:150%;
+		position:relative;
+
+	}
+	.input_container{
+	}
+
+}
